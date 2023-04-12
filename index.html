@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Gallery</title>
+</head>
+<style>
+html{
+    background-image: url(./assets/images/wood-repeat.jpg);
+}
+.container{
+    width: 100%;
+    margin: 0 5% auto;
+
+
+}
+h1 {
+    color: #f0d6d6;
+    text-align: center;
+    text-shadow: 5px black;
+}
+h2{
+    color: #acd5ff;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+li{
+    width: 50%;
+}
+a{
+    display: block;
+} 
+a:hover{
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+ 
+    }
+img{
+    width: 80%;
+    height: auto;
+    border: white solid 5px;
+    border-bottom: white solid 10px;
+
+}
+    .pic1{
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+
+    }
+    .pic1:hover, .pic2:hover, .pic3:hover, .pic4:hover, .pic5:hover, .pic6:hover{
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+
+    }
+    .pic1:hover{
+
+    }
+    .pic2{
+        -moz-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+
+    }
+
+    .pic3{
+        -moz-transform: rotate(8deg);
+        -webkit-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+        transform: rotate(8deg);
+        
+
+    }
+    .pic4{
+        -moz-transform: rotate(12deg);
+        -webkit-transform: rotate(12deg);
+        -o-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg);
+
+    }
+    .pic5{
+        -moz-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+
+    }
+    .pic6 {
+        -moz-transform: rotate(8deg);
+        -webkit-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+        transform: rotate(8deg);
+    }
+
+</style>
+<body>
+    
+        <header>
+            <h1>Photo Gallery</h1>
+            <h2><i>My Trip to Argentina!</i></h2>
+        </header>
+        <div class="container">
+        <main>
+            <ul class="gallery">
+                <!-- waterfall image -->
+                <li class="pic1">
+                    <a href="#"><img src="./assets/images/1.jpg" alt="waterfall"></a>
+                </li>
+
+                <!-- cloud image -->
+                <li class="pic2">
+                    <a href="#"><img src="./assets/images/2.jpg" alt="cloud"></a>
+                </li>
+
+                <!-- sunset image -->
+                <li class="pic3">
+                    <a href="#"><img src="./assets/images/3.jpg" alt="sunset"></a>
+                </li>
+
+                <!-- wind image -->
+                <li class="pic4">
+                    <a href="#"><img src="./assets/images/4.jpg" alt="wind"></a>
+                </li>
+
+                <!-- sunrise image -->
+                <li class="pic5">
+                    <a href="#"><img src="./assets/images/5.jpg" alt="sunrise"></a>
+                </li>
+
+                <!-- field image -->
+                <li class="pic6">
+                    <a href="#"><img src="./assets/images/6.jpg" alt="field"></a>
+                </li>
+                
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
